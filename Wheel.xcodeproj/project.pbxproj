@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		1A249A2C1B7A4C3B00F074ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A249A2B1B7A4C3B00F074ED /* main.m */; };
 		1A249A2F1B7A4C3B00F074ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A249A2E1B7A4C3B00F074ED /* AppDelegate.m */; };
-		1A249A321B7A4C3B00F074ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A249A311B7A4C3B00F074ED /* ViewController.m */; };
-		1A249A351B7A4C3B00F074ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A249A331B7A4C3B00F074ED /* Main.storyboard */; };
 		1A249A371B7A4C3B00F074ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A249A361B7A4C3B00F074ED /* Images.xcassets */; };
-		1A249A3A1B7A4C3B00F074ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A249A381B7A4C3B00F074ED /* LaunchScreen.xib */; };
 		1A249A461B7A4C3B00F074ED /* WheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A249A451B7A4C3B00F074ED /* WheelTests.m */; };
+		1A249A511B7A4CD800F074ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A249A501B7A4CD800F074ED /* ViewController.m */; };
+		1A249A571B7A4EEA00F074ED /* OBShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A249A541B7A4EEA00F074ED /* OBShapedButton.m */; };
+		1A249A581B7A4EEA00F074ED /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A249A561B7A4EEA00F074ED /* UIImage+ColorAtPixel.m */; };
+		1AFCD3B11B7AE11300F93D02 /* ButtonMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCD3B01B7AE11300F93D02 /* ButtonMenu.m */; };
+		1AFCD3B31B7AE86C00F93D02 /* ButtonMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCD3B21B7AE86C00F93D02 /* ButtonMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,19 @@
 		1A249A2B1B7A4C3B00F074ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A249A2D1B7A4C3B00F074ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A249A2E1B7A4C3B00F074ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A249A301B7A4C3B00F074ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A249A311B7A4C3B00F074ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1A249A341B7A4C3B00F074ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A249A361B7A4C3B00F074ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1A249A391B7A4C3B00F074ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1A249A3F1B7A4C3B00F074ED /* WheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A249A441B7A4C3B00F074ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A249A451B7A4C3B00F074ED /* WheelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelTests.m; sourceTree = "<group>"; };
+		1A249A4F1B7A4CD800F074ED /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A249A501B7A4CD800F074ED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A249A531B7A4EEA00F074ED /* OBShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBShapedButton.h; sourceTree = "<group>"; };
+		1A249A541B7A4EEA00F074ED /* OBShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBShapedButton.m; sourceTree = "<group>"; };
+		1A249A551B7A4EEA00F074ED /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
+		1A249A561B7A4EEA00F074ED /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
+		1AFCD3AF1B7AE11300F93D02 /* ButtonMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonMenu.h; sourceTree = "<group>"; };
+		1AFCD3B01B7AE11300F93D02 /* ButtonMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonMenu.m; sourceTree = "<group>"; };
+		1AFCD3B21B7AE86C00F93D02 /* ButtonMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +88,15 @@
 		1A249A281B7A4C3B00F074ED /* Wheel */ = {
 			isa = PBXGroup;
 			children = (
+				1A249A521B7A4EEA00F074ED /* shapedButton */,
 				1A249A2D1B7A4C3B00F074ED /* AppDelegate.h */,
 				1A249A2E1B7A4C3B00F074ED /* AppDelegate.m */,
-				1A249A301B7A4C3B00F074ED /* ViewController.h */,
-				1A249A311B7A4C3B00F074ED /* ViewController.m */,
-				1A249A331B7A4C3B00F074ED /* Main.storyboard */,
+				1AFCD3AF1B7AE11300F93D02 /* ButtonMenu.h */,
+				1AFCD3B01B7AE11300F93D02 /* ButtonMenu.m */,
+				1AFCD3B21B7AE86C00F93D02 /* ButtonMenu.xib */,
+				1A249A4F1B7A4CD800F074ED /* ViewController.h */,
+				1A249A501B7A4CD800F074ED /* ViewController.m */,
 				1A249A361B7A4C3B00F074ED /* Images.xcassets */,
-				1A249A381B7A4C3B00F074ED /* LaunchScreen.xib */,
 				1A249A291B7A4C3B00F074ED /* Supporting Files */,
 			);
 			path = Wheel;
@@ -117,6 +126,17 @@
 				1A249A441B7A4C3B00F074ED /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A249A521B7A4EEA00F074ED /* shapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				1A249A531B7A4EEA00F074ED /* OBShapedButton.h */,
+				1A249A541B7A4EEA00F074ED /* OBShapedButton.m */,
+				1A249A551B7A4EEA00F074ED /* UIImage+ColorAtPixel.h */,
+				1A249A561B7A4EEA00F074ED /* UIImage+ColorAtPixel.m */,
+			);
+			path = shapedButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A249A351B7A4C3B00F074ED /* Main.storyboard in Resources */,
-				1A249A3A1B7A4C3B00F074ED /* LaunchScreen.xib in Resources */,
+				1AFCD3B31B7AE86C00F93D02 /* ButtonMenu.xib in Resources */,
 				1A249A371B7A4C3B00F074ED /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A249A321B7A4C3B00F074ED /* ViewController.m in Sources */,
+				1AFCD3B11B7AE11300F93D02 /* ButtonMenu.m in Sources */,
+				1A249A581B7A4EEA00F074ED /* UIImage+ColorAtPixel.m in Sources */,
+				1A249A511B7A4CD800F074ED /* ViewController.m in Sources */,
+				1A249A571B7A4EEA00F074ED /* OBShapedButton.m in Sources */,
 				1A249A2F1B7A4C3B00F074ED /* AppDelegate.m in Sources */,
 				1A249A2C1B7A4C3B00F074ED /* main.m in Sources */,
 			);
@@ -242,25 +264,6 @@
 			targetProxy = 1A249A401B7A4C3B00F074ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1A249A331B7A4C3B00F074ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A249A341B7A4C3B00F074ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1A249A381B7A4C3B00F074ED /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A249A391B7A4C3B00F074ED /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1A249A471B7A4C3B00F074ED /* Debug */ = {
@@ -347,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Wheel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Wheel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +421,7 @@
 				1A249A4B1B7A4C3B00F074ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A249A4C1B7A4C3B00F074ED /* Build configuration list for PBXNativeTarget "WheelTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +430,7 @@
 				1A249A4E1B7A4C3B00F074ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
