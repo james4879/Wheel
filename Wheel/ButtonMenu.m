@@ -81,15 +81,29 @@
     // 所有隐藏按钮的大小是一样
     CGRect btnBounds = CGRectMake(0, -10, 43, 43);
     
+    NSInteger index = 0;
     // 遍历三个隐藏的按钮
     for (UIButton *btn in self.items) {
         btn.bounds = btnBounds;
+        btn.tag = index;
+        index++;
+        [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
         btn.center = self.mainBtn.center;
     }
     
     // 把 "红色按钮" 置顶
     [self bringSubviewToFront:self.mainBtn];
     
+}
+
+/**
+ *  弹出按钮点击事件
+ *
+ *  @param button 点击的按钮
+ */
+- (void)btnClick:(UIButton *)button
+{
+    NSLog(@"ta--->%ld", button.tag);
 }
 
 - (IBAction)mainBtnClick:(id)sender {
